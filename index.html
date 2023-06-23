@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body class="main-container">
+    <div class="basic-data-container">
+      <div class="year-container">
+        <div class="year-lable">Year</div>
+        <div class="year-option">2023</div>
+      </div>
+      <div class="part-container">
+        <div class="part-label">Part</div>
+        <div class="part-option-container">
+          <div selected="true">A</div>
+          <div selected="false">B</div>
+        </div>
+      </div>
+    </div>
+    <div class="option-container"></div>
+    <div class="tool-container">
+      <button class="clear-btn">Clear</button>
+      <button class="result-btn">Result</button>
+      <div class="result-container">?/120</div>
+    </div>
+  </body>
 </html>
