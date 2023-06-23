@@ -106,6 +106,9 @@ html {
   margin-block-end: 1rem;
 }
 .question-number-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 2rem;
   height: 100%;
   text-align: center;
@@ -195,7 +198,21 @@ html {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(120, 1fr);
   }
+  .question-option-container{
+    border-radius: .8rem;
+  }
+  .question-option-inside {
+    padding: 0.4rem 1rem;
+  }
+  .question-number-container{
+    width: 3rem;
+    border-radius: .8rem;
+  }
   .tool-container {
     flex-direction: column;
+  }
+  .tool-container button,
+  .tool-container div{
+    padding: 0.5rem 6rem;
   }
 }
