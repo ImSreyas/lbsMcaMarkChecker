@@ -36,6 +36,10 @@ for (let i = 1; i <= 120; i++) {
 
 const clear = document.querySelector(".clear-btn");
 clear.addEventListener("click", (e) => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
   document.querySelector(".result-container").innerText = "?/120";
   const qo = document.querySelectorAll(".question-option-inside");
   qo.forEach((q) => {
