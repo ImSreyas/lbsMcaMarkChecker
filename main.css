@@ -11,62 +11,88 @@ html {
   margin: 0;
   padding: 0;
 }
+/* -scroll bar  */
+::selection {
+  background-color: var(--primaryColor);
+  color: var(--primaryBackground);
+}
+::-webkit-scrollbar {
+  background-color: var(--primaryBackground);
+  border-radius: 100px;
+  width: 0.3rem;
+}
+::-webkit-scrollbar-track {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--primaryColor);
+  border-radius: 50rem;
+  /* border: .05rem solid rgb(255, 255, 255); */
+}
+/* ::-webkit-scrollbar-thumb:hover{
+    
+} */
+::-webkit-scrollbar-thumb:active {
+  background-color: rgb(214, 43, 0);
+}
+/* -main container  */
 .main-container {
   background-color: var(--primaryBackground);
   color: white;
   padding-block-end: 5rem;
 }
 /* -top tool bar  */
-.basic-data-container{
-    padding: 2.5rem 10rem 0rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.basic-data-container {
+  padding: 2.5rem 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45vw;
 }
-.year-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.year-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.year-label{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.year-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.year-option{
-    border-radius: .5rem;
-    padding: .1rem .5rem;
-    margin-inline-start: .5rem;
-    background-color: var(--primaryColor);
-    cursor: pointer;
+.year-option {
+  border-radius: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  margin-inline-start: 0.5rem;
+  background-color: var(--primaryColor);
+  cursor: pointer;
 }
-.part-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.part-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.part-option-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid rgb(30, 30, 30);
-    border-radius: .5rem;
-    margin-inline-start: .5rem;
-    overflow: hidden;
+.part-option-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(30, 30, 30);
+  border-radius: 0.5rem;
+  margin-inline-start: 0.5rem;
+  overflow: hidden;
 }
-.part-option-container div{
-    padding: .1rem .7rem;
-    border-inline-start: 1px solid rgb(30, 30, 30);
-    cursor: pointer;
+.part-option-container div {
+  padding: 0.1rem 0.7rem;
+  border-inline-start: 1px solid rgb(30, 30, 30);
+  cursor: pointer;
 }
-.part-option-container div[selected="true"]{
-    background-color: var(--primaryColor);
+.part-option-container div[selected="true"] {
+  background-color: var(--primaryColor);
 }
 /* -middle container  */
 .option-container {
   height: 100%;
   width: 100%;
-  padding: 2rem 5rem;
+  padding: 2rem 5vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(30, 1fr);
@@ -76,7 +102,7 @@ html {
 }
 .option {
   display: flex;
-  margin-block: 0.5rem;
+  margin-block-end: 1rem;
 }
 .question-number-container {
   width: 2rem;
@@ -113,7 +139,7 @@ html {
 /* -tool  */
 .tool-container {
   width: 100%;
-  padding: 0.5rem 5rem;
+  padding: 0.5rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,8 +163,8 @@ html {
 .result-btn:active {
   background-color: rgb(184, 37, 0);
 }
-.clear-btn:active{
-    background-color: rgb(5, 5, 5);
+.clear-btn:active {
+  background-color: rgb(5, 5, 5);
 }
 .result-container {
   font-size: 0.9rem;
@@ -146,4 +172,29 @@ html {
   background-color: rgb(10, 10, 10);
   border-radius: 0.75rem;
   border: 2px solid rgb(35, 35, 35);
+}
+
+@media (width <= 1000px) {
+  .option-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(40, 1fr);
+  }
+}
+@media (width <= 820px) {
+  .option-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(60, 1fr);
+  }
+  .basic-data-container {
+    gap: 1rem;
+  }
+}
+@media (width <= 620px) {
+  .option-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(120, 1fr);
+  }
+  .tool-container {
+    flex-direction: column;
+  }
 }
