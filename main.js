@@ -16,13 +16,14 @@ for (let i = 1; i <= 120; i++) {
     questionOptionInside.className = "question-option-inside";
     questionOptionContainer.append(questionOptionInside);
     questionOptionInside.setAttribute("selected", "false");
+    questionOptionInside.innerText = op;
     questionOptionInside.addEventListener("click", (e) => {
-      const children = Array.from(questionOptionInside.parentElement.children);
-      children.forEach((ch) => {
-        if (e.target != ch) {
-          ch.setAttribute("selected", "false");
-        }
-      });
+      const children = questionOptionInside.parentElement.querySelector(
+        ".question-option-inside[selected='true']"
+      );
+      if (children && e.target != children) {
+        children.setAttribute("selected", "false");
+      }
       questionOptionInside.setAttribute(
         "selected",
         questionOptionInside.getAttribute("selected") === "true"
@@ -30,16 +31,15 @@ for (let i = 1; i <= 120; i++) {
           : "true"
       );
     });
-    questionOptionInside.innerText = op;
   });
 }
 
 const clear = document.querySelector(".clear-btn");
 clear.addEventListener("click", (e) => {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    })
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
   document.querySelector(".result-container").innerText = "?/120";
   const qo = document.querySelectorAll(".question-option-inside");
   qo.forEach((q) => {

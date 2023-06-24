@@ -4,7 +4,8 @@ html {
 }
 * {
   --primaryColor: rgb(255, 51, 0);
-  --primaryBackground: black;
+  --primaryColorDarker: rgb(196, 39, 0);
+  --primaryBackground: rgb(10, 10, 10);
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   box-sizing: border-box;
@@ -34,7 +35,7 @@ html {
     
 } */
 ::-webkit-scrollbar-thumb:active {
-  background-color: rgb(214, 43, 0);
+  background-color: var(--primaryColorDarker);
 }
 /* -main container  */
 .main-container {
@@ -165,7 +166,7 @@ html {
   border: 2px solid rgb(35, 35, 35);
 }
 .result-btn:active {
-  background-color: rgb(184, 37, 0);
+  background-color: var(--primaryColorDarker);
 }
 .clear-btn:active {
   background-color: rgb(5, 5, 5);
