@@ -40,7 +40,7 @@ clear.addEventListener("click", (e) => {
     top: 0,
     behavior: "smooth",
   });
-  document.querySelector(".result-container").innerText = "?/120";
+  document.querySelector(".result-container .result").innerText = "?/120";
   const qo = document.querySelectorAll(".question-option-inside");
   qo.forEach((q) => {
     q.setAttribute("selected", "false");
@@ -69,7 +69,8 @@ result.addEventListener("click", (e) => {
       }
     });
   });
-  document.querySelector(".result-container").innerText = `${mark}/120`;
+  document.querySelector(".result-container .result").innerText = `${mark}/120`;
+  document.querySelector(".result-wrapper").setAttribute("display", "true")
 });
 
 const partOptions = Array.from(
@@ -86,3 +87,7 @@ partOptions.forEach((option) => {
     );
   });
 });
+
+document.querySelector(".result-close-btn").addEventListener('click', (e) => {
+  document.querySelector(".result-wrapper").setAttribute("display", "false")
+})

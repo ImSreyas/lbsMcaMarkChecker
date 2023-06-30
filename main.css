@@ -171,12 +171,56 @@ html {
 .clear-btn:active {
   background-color: rgb(5, 5, 5);
 }
+.result-wrapper{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+body:has(.result-wrapper[display="true"]){
+   overflow: hidden;
+}
+.result-wrapper[display="false"]{
+  display: none;
+}
 .result-container {
-  font-size: 0.9rem;
-  padding: 0.5rem 3rem;
-  background-color: rgb(10, 10, 10);
-  border-radius: 0.75rem;
+  width: fit-content;
+  height: fit-content;
+  padding: .8rem .8rem;
+  background-color: rgb(24, 24, 24);
+  border-radius: 1.9rem;
   border: 2px solid rgb(35, 35, 35);
+  height: fit-content;
+  width: 15rem;
+  max-width: 85vw;
+}
+.result-container .result{
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result-container .result-close-btn{
+  background-color: rgb(24, 24, 24);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  padding: .6rem;
+  width: 100%;
+  height: fit-content;
+  border: 2px solid rgb(35, 35, 35);
+  border-radius: 1rem;
+  cursor: pointer;
+  margin-block-start: .5rem;
+}
+.result-container .result-close-btn:active {
+  background-color: rgb(15, 15, 15);
 }
 
 @media (width <= 1000px) {
