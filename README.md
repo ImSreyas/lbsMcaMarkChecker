@@ -29,7 +29,6 @@
 - All of the calculations are handled by JS
 
 ✨✨✨
-
 ---
 - **Home page**
 
