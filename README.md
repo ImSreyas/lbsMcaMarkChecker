@@ -1,8 +1,8 @@
 # ✨ LBS MCA Mark Checker ✨
 
-**Anxiously awaiting your results? Check them effortlessly with this web app! ⏳**
+**Anxiously awaiting your Marks? Check them effortlessly with this web app! ⏳**
 
-**See your LBS MCA Entrance Exam (2023) marks in a flash! ⚡️**
+**Calculate your LBS MCA Entrance Exam (2023) marks in a flash! ⚡️**
 
 **Visit the app now!: [https://imsreyas.github.io/lbsMcaMarkChecker/](https://imsreyas.github.io/lbsMcaMarkChecker/)**
 
