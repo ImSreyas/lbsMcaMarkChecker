@@ -7,7 +7,7 @@
 **Visit the app now!: [https://imsreyas.github.io/lbsMcaMarkChecker/](https://imsreyas.github.io/lbsMcaMarkChecker/)**
 
 ### Key Features
----
+___
 
 - Quick and easy mark calculation
 - Clear and concise mark display 
