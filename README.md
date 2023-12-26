@@ -48,4 +48,13 @@
 
 ![home page](./screenshots/mobile/home.png)![selected state](./screenshots/mobile/selected.png)![final score](./screenshots/mobile/finalscore.png)
 
+**Mobile**
+---
+
+<p align="center">
+  <img src="./screenshots/mobile/home.png" width="200" />
+  <img src="./screenshots/mobile/selected.png" width="200" />
+  <img src="./screenshots/mobile/finalscore.png" width="200" />
+</p>
+
 
