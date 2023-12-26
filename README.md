@@ -25,6 +25,7 @@
 
 **Additional Information :**
 
+- A good news, The web application is mobile responsive. 😉
 - Technologies used: HTML, JavaScript, CSS
 - All of the calculations are handled by JS
 
