@@ -26,8 +26,8 @@
 **Additional Information :**
 
 - Technologies used: HTML, JavaScript, CSS
+- All of the calculations are handled by JS
 
-All of the calculations are handled by JS
 ---
 >Home page
 
