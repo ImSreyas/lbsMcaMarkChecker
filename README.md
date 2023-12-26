@@ -32,7 +32,6 @@
 - All of the calculations are handled by JS
 ---
 - **Home page**
-<br>
 
 ![Screenshot of the app's home page](./screenshot.png)
 
