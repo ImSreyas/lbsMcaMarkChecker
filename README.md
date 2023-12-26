@@ -33,13 +33,19 @@
 ---
 - **Home page**
 
-![Screenshot of the app's home page](./screenshots/home.png)
+![home page](./screenshots/desktop/home.png)
 
 - **Selected options**
 
-![Screenshot of the app's home page](./screenshots/selected.png)
+![selected state](./screenshots/desktop/selected.png)
 
 - **Final Score**
 
-![Screenshot of the app's home page](./screenshots/finalscore.png)
+![final score](./screenshots/desktop/finalscore.png)
+
+**Mobile**
+---
+
+![home page](./screenshots/mobile/home.png)![selected state](./screenshots/mobile/selected.png)![final score](./screenshots/mobile/finalscore.png)
+
 
