@@ -1,4 +1,4 @@
-# ✨ LBS MCA Result Checker ✨
+# ✨ LBS MCA Mark Checker ✨
 
 **Anxiously awaiting your results? Check them effortlessly with this web app! ⏳**
 
@@ -17,9 +17,9 @@
 1. Head to the website 🚀.
 2. Select your options same as you done in lbs exam 😃.
 3. Click the submit button 🖱️.
-4. View your results instantly! 🎉
+4. View your results instantly! 🎉.
 
-**Don't wait any longer! ⏳ Check your marks now and start planning your future! **
+**Don't wait any longer! ⏳ Check your marks now and start planning your future!**
 
 ## Created with ❤️ by **SREYAS**
 
