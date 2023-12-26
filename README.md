@@ -25,6 +25,7 @@
 
 **Additional Information :**
 
+- A good news, The web application is mobile responsive. 😉
 - Technologies used: HTML, JavaScript, CSS
 - All of the calculations are handled by JS
 
@@ -32,13 +33,13 @@
 ---
 - **Home page**
 
-![Screenshot of the app's home page](./screenshot/home.png)
+![Screenshot of the app's home page](./screenshots/home.png)
 
 - **Selected options**
 
-![Screenshot of the app's home page](./screenshot/selected.png)
+![Screenshot of the app's home page](./screenshots/selected.png)
 
-- **Final Mark**
+- **Final Score**
 
-![Screenshot of the app's home page](./screenshot/finalscore.png)
+![Screenshot of the app's home page](./screenshots/finalscore.png)
 
