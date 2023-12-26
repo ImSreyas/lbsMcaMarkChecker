@@ -28,8 +28,7 @@
 - Technologies used: HTML, JavaScript, CSS
 
 All of the calculations are handled by JS
-
-
+## 
 Home page
 ![Screenshot of the app's home page](./screenshot.png)
 
