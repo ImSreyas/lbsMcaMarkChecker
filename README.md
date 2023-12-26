@@ -33,5 +33,6 @@
 ---
 - **Home page**
 <br>
+
 ![Screenshot of the app's home page](./screenshot.png)
 
