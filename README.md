@@ -46,15 +46,10 @@
 **Mobile**
 ---
 
-![home page](./screenshots/mobile/home.png)![selected state](./screenshots/mobile/selected.png)![final score](./screenshots/mobile/finalscore.png)
-
-**Mobile**
----
-
 <p align="center">
-  <img src="./screenshots/mobile/home.png" width="200px" />
-  <img src="./screenshots/mobile/selected.png" width="200px" />
-  <img src="./screenshots/mobile/finalscore.png" width="200px" />
+  <img src="./screenshots/mobile/home.png" width="300px" />
+  <img src="./screenshots/mobile/selected.png" width="300px" />
+  <img src="./screenshots/mobile/finalscore.png" width="300px" />
 </p>
 
 
