@@ -38,7 +38,7 @@
 
 ![Screenshot of the app's home page](./screenshots/selected.png)
 
-- **Final Mark**
+- **Final Score**
 
 ![Screenshot of the app's home page](./screenshots/finalscore.png)
 
