@@ -51,10 +51,10 @@
 **Mobile**
 ---
 
-<p align="center">
-  <img src="./screenshots/mobile/home.png" width="200" />
-  <img src="./screenshots/mobile/selected.png" width="200" />
-  <img src="./screenshots/mobile/finalscore.png" width="200" />
+<p align="center" style="display: grid; grid-template-columns: 1fr 1fr 1fr">
+  <img src="./screenshots/mobile/home.png" />
+  <img src="./screenshots/mobile/selected.png" />
+  <img src="./screenshots/mobile/finalscore.png" />
 </p>
 
 
