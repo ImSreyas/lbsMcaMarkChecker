@@ -32,5 +32,13 @@
 ---
 - **Home page**
 
-![Screenshot of the app's home page](./screenshot.png)
+![Screenshot of the app's home page](./screenshot/home.png)
+
+- **Selected options**
+
+![Screenshot of the app's home page](./screenshot/selected.png)
+
+- **Final Mark**
+
+![Screenshot of the app's home page](./screenshot/finalscore.png)
 
