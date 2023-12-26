@@ -12,7 +12,7 @@
 - Clear and concise mark display 
 - Saves you time and stress 
 
-## Get Started in 3 Simple Steps
+## Get Started in 4 Simple Steps
 
 1. Head to the website 🚀.
 2. Select your options same as you done in lbs exam 😃.
