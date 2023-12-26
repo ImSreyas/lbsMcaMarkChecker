@@ -29,3 +29,5 @@
 
 All of the calculations are handled by JS
 
+![Screenshot of the app's home page](./screenshot.png)
+
