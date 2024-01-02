@@ -6,7 +6,7 @@
   
   **Calculate your LBS MCA Entrance Exam (2023) marks in a flash! ⚡️**
     
-  🌐 Visit the Web App: <a href="https://imsreyas.github.io/lbsMcaMarkChecker/">LbsMcaMarkChecker</a>
+  🌐 Visit the Web App: <a href="https://imsreyas.github.io/lbsMcaMarkChecker/">here</a>
 
 </div>
 
