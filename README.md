@@ -8,6 +8,8 @@
     
   🌐 Visit the Web App: <a href="https://imsreyas.github.io/lbsMcaMarkChecker/">here</a>
 
+  **note:** This website uses the official answer key provided by the LBS for checking the mark you have obtained. The website will only be live after the publishment of the answer key from the official side. The main use of this website is to easily check the mark you have obtained in the LBS mca entrance exam before the final publishment of result. You need to select the exact options you have selected in the LBS mca entrace exam with the help of candidates key, finally the website will provide you with the final mark according to the answer key provided by LBS.
+
 </div>
 
 
