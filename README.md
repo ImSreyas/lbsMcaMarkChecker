@@ -17,7 +17,10 @@
 
 - Quick and easy mark calculation
 - Clear and concise mark display 
-- Saves you time and stress 
+- Saves you time and stress
+
+### Supported years
+- 2023
 
 ## Get Started in 4 Simple Steps 💯
 
@@ -33,7 +36,7 @@
 **Additional Information :**
 
 - A good news, The web application is mobile responsive. 😉
-- Technologies used: HTML, JavaScript, CSS
+- Stack used: HTML, JavaScript, CSS
 - All of the calculations are handled by JS
 
 ✨✨✨
